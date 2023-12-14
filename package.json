@@ -1,0 +1,29 @@
+{
+  "name": "beebtc",
+  "version": "1.0.0",
+  "description": "Bee BTC Smart Contract Token Implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beekash-Payments-Systems-Ltd/BeeBTC.git"
+  },
+  "author": "Gabriel Dagadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beekash-Payments-Systems-Ltd/BeeBTC/issues"
+  },
+  "homepage": "https://github.com/Beekash-Payments-Systems-Ltd/BeeBTC#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
