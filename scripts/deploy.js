@@ -21,7 +21,7 @@ async function main() {
   console.log(
     `BeeBTC with ${ethers.formatEther(
       lockedAmount
-    )}ETH and unlock timestamp ${unlockTime} deployed to ${lock.target}`
+    )}ETH and unlock timestamp ${unlockTime} deployed to ${beeBTC.target}`
   );
 }
 
